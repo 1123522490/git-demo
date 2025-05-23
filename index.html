@@ -7,7 +7,15 @@
 
     <style>
       #name {
-        padding-top: 100px;
+        margin: 100px;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
       }
     </style>
   </head>
@@ -35,14 +43,20 @@
           "aweme://roma_redirect/?spark_page=cash_loan_redirect_url"
         );
       };
+      const onClick6 = () => {
+        window.location.replace(
+          "aweme://webview?url=https%3A%2F%2Ff-p-sandbox.bytedance.net%2Fcashloan%2Fv1%2Fget_user_redirect_url%3Fwallet_unified_uid%3D1435169825459202000%26current_node_name%3DLIVENESS_DETECT_COMPLETED%26risk_info%3D%257B%2522device_platform%2522%253A%2522iPhone%2522%252C%2522os_version%2522%253A%252218.4.1%2522%252C%2522app_version%2522%253A%252240.2.0%2522%252C%2522version_name%2522%253A%252240.2.0%2522%252C%2522did%2522%253A%2522%2522%252C%2522aid%2522%253A%25221233%2522%252C%2522locale%2522%253A%2522en%2522%252C%2522version_code%2522%253A%252240.2.0%2522%252C%2522language%2522%253A%2522zh%2522%252C%2522is_jail_broken%2522%253Afalse%252C%2522is_root%2522%253Afalse%252C%2522app_name%2522%253A%2522musical_ly%2522%252C%2522app_id%2522%253A%25221233%2522%252C%2522carrier_region%2522%253A%2522%2522%252C%2522current_region%2522%253A%2522PH%2522%252C%2522channel%2522%253A%2522inhouse%2522%252C%2522device_type%2522%253A%2522iPhone17%252C1%2522%252C%2522iid%2522%253A%2522%2522%252C%2522platform%2522%253A%2522iphone%2522%252C%2522screen_height%2522%253A874%252C%2522screen_width%2522%253A402%252C%2522timezone_name%2522%253A%2522Asia%252FShanghai%2522%252C%2522uid%2522%253A%25227499676155445478455%2522%252C%2522app_language%2522%253A%2522en%2522%252C%2522ip_address%2522%253A%252210.88.187.95%2522%252C%2522sys_region%2522%253A%2522CN%2522%252C%2522ip%2522%253A%252210.88.187.95%2522%252C%2522net_type%2522%253A%2522WIFI%2522%252C%2522priority_region%2522%253A%2522PH%2522%252C%2522app_region%2522%253A%2522CN%2522%252C%2522sys_language%2522%253A%2522zh%2522%252C%2522terminal_country%2522%253A%2522CN%2522%252C%2522device_fp_id%2522%253A%2522bytedanceEAB4D725-2911-493E-AEA7-5E4D90AC936E%2522%252C%2522uuid%2522%253A%252210B29D0F-958B-4A00-A489-6DA8C0D02E6F%2522%252C%2522ac%2522%253A%2522WIFI%2522%252C%2522user_agent%2522%253A%2522Mozilla%252F5.0%252B%2528iPhone%253B%252BCPU%252BiPhone%252BOS%252B18_4_1%252Blike%252BMac%252BOS%252BX%2529%252BAppleWebKit%252F605.1.15%252B%2528KHTML%252C%252Blike%252BGecko%2529%252BMobile%252F15E148%2522%257D%26request_id%3D%26request_id_cipher%3DMIIB0AQMueqTPKvBwljlOFYwBIIBrJZIUJaUZyn3Dx%252FO91MvmKUKoy4Tu6MRoxJMyYFOHvx7VAxO3g2QgXa0CnjMBtYtCrLuhBhXmRKY5WJJEfSKKWAg8RCFI11ryUlGdFHoLO%252BgIVhESsXUyXn3lclPi8oUi2sD5oYziggvpQQTf1tL03xLuBq%252Beh9Si3oTskWQ3WSdewiMC01ui8ItnYbwc1I2e0BhR305I2%252F%252FaJkaVHsRipeJ6nravkG9HTRw8QrCDLbgA6fCcRgEGbhTThi72GSwz48xoQOueHL6NzPjtdL%252FL0lTwyBlAVWloRWke0KyBFAROX01gPMO68R6eogJhujFsfDlesvUdKt4vuChsjF7cRhBEVaISneJOn3KcQjiO%252FV0uI7C1IA%252F3CgE8t%252BFC87YtdnDaxqzZyMS642gdovxM8WC%252FNJAydhKHBPIaP5lVnh6YZZQrt2BcvU%252Fhv%252FZBAW7J629h5qYjyFxXTIBIPW1b8XSYJkrY2ispgwscq7rX56lroovd87umQ6fF%252B6TAmei%252BwpO%252FCNMB8kK7%252Fel6EWr89EeQNfGR8u8SStXnm4pMduPLqyoTryqYyWZ0tVrBBC4xVkQWQGRQqsJ9N%252BsaCpZ%26credit_main_order_id%3D20250523109050300000000004410000%26credit_apply_order_id%3D20250523110100300000000746011000%26country_code%3DPH%26redirect_scene%3Dinstitution_redirect&target_handler=pipo_hybrid&disable_auto_append_crossplatform_plugin=1&pipo_global_props_space=pipo_bnpl&proxy_enabled_runtime_type=1&bdhm_bid=pipo_bnpl_spark&use_spark=1&disable_ttnet_proxy=0&hide_nav_bar=1&trans_status_bar=1&disable_bounces=1&allow_webview_gesture=1&insert_loading_below_kitview=1&close_pre_pipo_container=1&spark_page_session=06A822FA-9E61-4397-ACB5-F13C4BC8B47B&spark_page=cash_loan_redirect_url&schema_dfid=268443648"
+        );
+      };
     </script>
 
     <div id="name">
       <button onclick="onClick1()">location.href url 链接</button>
-      <button onclick="onClick2()">location replace url 链接</button>
       <button onclick="onClick3()">location.href roma 链接</button>
       <button onclick="onClick4()">location.href schema 链接</button>
+      <button onclick="onClick2()">location replace url 链接</button>
       <button onclick="onClick5()">location.replace roma 链接</button>
+      <button onclick="onClick6()">location.replace schema 链接</button>
     </div>
   </body>
 </html>
